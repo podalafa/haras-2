@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('imagens/haras.jpeg'); /* Caminho para sua imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(207, 3, 3); /* Para garantir que o texto seja legível */
+}
+
+.container {
+    text-align: center;
+}
+
+#countdown {
+    font-size: 48px;
+    margin-top: 20px;
+}
